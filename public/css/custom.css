@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+#banner-container-1{
+    background-color: #fc683f;
+    height:100%;
+    height:60vh;
+}
+#banner-container-wrapper{
+    height:60vh;
+}
+
+#banner-container-2{
+    background-color: #ffd105;
+    height:100%;
+    height:60vh;
+}
+#banner-container-wrapper{
+    height:100%;
+}
+#container-1-text-wrapper h1{
+    font-family: 'Londrina Outline', cursive;
+    font-size: 8vh;
+}
+#banner-title-1{
+    font-size: 4vh;
+}
+#banner-image-wrapper{
+    box-shadow: 10px 10px;
+}
+#product-text{
+    height:60vh;
+   
+}
+
+#product-img{
+    height:61vh;
+    background-color: #aee8fc;
+    
+}
+
+#product-img img{
+    box-shadow: 10px 10px;
+}
+#context-text{
+    font-size:2.5vh;
+}
+#topbar-dropdown{
+    position:relative;
+    z-index: 10;
+}
+@media(min-width:1080px){
+    #context-text{
+        font-size:6.5vh;
+    }
+}
